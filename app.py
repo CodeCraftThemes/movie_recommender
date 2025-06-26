@@ -28,7 +28,7 @@ def load_data():
     )
     
     # Cargar modelo pre-entrenado
-    model = load('models/modelo_surprise.joblib')
+    model = load('models/modelo_recomendacion.joblib')
     return movies, model
 
 movies, model = load_data()
